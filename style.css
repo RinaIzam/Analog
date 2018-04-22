@@ -1,0 +1,42 @@
+body {
+	background-color: lightgrey;
+	font-family:'Courier New', serif;
+	text-align: center;
+}
+
+#box1
+{
+	border: 3px double black;
+	background-color: white;
+	/* step 1 to cente
+	r box*/
+	width: 600px;
+	min-width: 300px;
+	/* step 2 to center box*/
+
+	margin: 10px auto;
+	padding: 50px 200px;
+}
+
+li {
+    display: inline-block;
+    padding: 0 20px;
+
+}
+
+ul{
+	border-top: 2px solid black;
+	border-bottom:1px solid black;
+	padding:  20px;
+
+}
+
+a{
+	color: lightgrey;
+	text-decoration: none;
+}
+
+a.hover{
+	background-color: green;
+	color:white;
+}
